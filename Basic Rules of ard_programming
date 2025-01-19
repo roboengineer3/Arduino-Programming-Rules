@@ -27,9 +27,30 @@ RULES:
 6. /* ... */ notation is used to write multi-line comments in the code. 
 Comments are pieces of text that are ignored by the compiler and are used to explain the code for better readability and maintenance.
 
-When to Use:
+_When to Use:_
 Documentation: To explain the purpose of a block of code or the entire program.
 Code Maintenance: To make the code easier for others (or yourself) to understand later.
 Debugging: Temporarily disable a block of code without deleting it.
+
+/*
+This is an example of a multi-line comment.
+The code below turns an LED on and off with a delay of 1 second.
+*/
+
+void setup() {
+  pinMode(13, OUTPUT); // Set pin 13 as an output
+}
+
+void loop() {
+  digitalWrite(13, HIGH); // Turn on the LED
+  delay(1000);            // Wait for 1 second
+  digitalWrite(13, LOW);  // Turn off the LED
+  delay(1000);            // Wait for 1 second
+}
+
+*Key Points:*
+Comments do not affect the program's functionality.
+Multi-line comments are enclosed between /* and */.
+For single-line comments, use //. Example: // This is a single-line comment.
 
 7. Put ; after every statement

@@ -1,0 +1,35 @@
+1. Void is a command which with the help of we declare function in arduino programming.
+
+i.e. we use function Setup and loop
+
+so we declare as void setup and void loop.
+
+and you can also make function with the help of void command
+
+and every function after () open or close brackt should be
+
+after that when our function has started then there will be { curly backet and after when our function is going to close then there will be } close curly backet 
+
+so arduino ide will understand from this point our function has started and this point my function has complete.
+
+RULES:
+
+1. Every Arduino Program has void setup() and void loop().
+
+2. Program runs in linear fashion.
+
+3. Remember the {} Curly Brackets.
+
+4. Program is Case sensitive
+
+5. Use // to add comments in Program.
+
+6. /* ... */ notation is used to write multi-line comments in the code. 
+Comments are pieces of text that are ignored by the compiler and are used to explain the code for better readability and maintenance.
+
+When to Use:
+Documentation: To explain the purpose of a block of code or the entire program.
+Code Maintenance: To make the code easier for others (or yourself) to understand later.
+Debugging: Temporarily disable a block of code without deleting it.
+
+7. Put ; after every statement

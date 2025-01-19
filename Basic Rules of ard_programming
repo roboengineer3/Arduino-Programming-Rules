@@ -12,7 +12,7 @@ after that when our function has started then there will be { curly backet and a
 
 so arduino ide will understand from this point our function has started and this point my function has complete.
 
-RULES:
+**RULES:**
 
 1. Every Arduino Program has void setup() and void loop().
 
@@ -27,7 +27,7 @@ RULES:
 6. /* ... */ notation is used to write multi-line comments in the code. 
 Comments are pieces of text that are ignored by the compiler and are used to explain the code for better readability and maintenance.
 
-_When to Use:_
+__When to Use:__
 Documentation: To explain the purpose of a block of code or the entire program.
 Code Maintenance: To make the code easier for others (or yourself) to understand later.
 Debugging: Temporarily disable a block of code without deleting it.
@@ -48,7 +48,7 @@ void loop() {
   delay(1000);            // Wait for 1 second
 }
 
-*Key Points:*
+__Key Points:__
 Comments do not affect the program's functionality.
 Multi-line comments are enclosed between /* and */.
 For single-line comments, use //. Example: // This is a single-line comment.
